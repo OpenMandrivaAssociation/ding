@@ -9,6 +9,7 @@ Patch: ding-1.5-xdg.patch
 Patch1: ding-1.5-encoding.patch
 URL: http://www-user.tu-chemnitz.de/~fri/ding/
 BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: desktop-file-utils
 BuildRequires: ImageMagick
 Requires: tcl >= 8.0
