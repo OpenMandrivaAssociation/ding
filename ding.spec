@@ -43,17 +43,6 @@ cp de-en.txt $RPM_BUILD_ROOT%{_datadir}/dict/de-en.txt
 cp ding.png $RPM_BUILD_ROOT%{_datadir}/pixmaps/ding.png
 cp ding.desktop $RPM_BUILD_ROOT%{_datadir}/applications/ding.desktop
 cp ding.1 $RPM_BUILD_ROOT%{_mandir}/man1/ding.1
-mkdir -p $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%{name}):  \
-  needs="X11" \
-  section="Office/Accessories" \
-  title="Ding" \
-  longtitle="Ding: Dictionary English-German"  \
-  command="%{_bindir}/ding" \
-  icon="ding.png"  \
-  startup_notify="true" xdg="true"
-EOF
 mkdir -p %buildroot{%_liconsdir,%_miconsdir,%_iconsdir}
 ln -s %_datadir/pixmaps/%name.png %buildroot%_iconsdir/
 convert -scale 16 %name.png %buildroot%_miconsdir/%name.png
@@ -77,6 +66,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/pixmaps/ding.png
 %{_datadir}/applications/ding.desktop
 %{_mandir}/man1/ding.1*
-%_menudir/%name
 %_iconsdir/%name.png
 %_miconsdir/%name.png
