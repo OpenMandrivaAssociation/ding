@@ -1,7 +1,7 @@
 Summary: A Dictionary Lookup program
 Name: ding
 Version: 1.5
-Release: %mkrel 1
+Release: %mkrel 3
 License: GPL 
 Group: System/Internationalization
 Source: ftp://ftp.tu-chemnitz.de/pub/Local/urz/ding/ding-%{version}.tar.bz2
