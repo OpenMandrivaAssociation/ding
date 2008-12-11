@@ -11,7 +11,7 @@ URL: http://www-user.tu-chemnitz.de/~fri/ding/
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: desktop-file-utils
-BuildRequires: ImageMagick
+BuildRequires: imagemagick
 Requires: tcl >= 8.0
 Requires: tk >= 8.0
 Requires: aspell-en
