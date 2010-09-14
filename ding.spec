@@ -1,6 +1,6 @@
 Summary: A Dictionary Lookup program
 Name: ding
-Version: 1.6
+Version: 1.7
 Release: %mkrel 1
 License: GPL 
 Group: System/Internationalization
