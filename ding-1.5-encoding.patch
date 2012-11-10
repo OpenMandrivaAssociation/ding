@@ -1,0 +1,10 @@
+--- ding-1.5/ding~	2007-04-09 21:07:27.000000000 +0200
++++ ding-1.5/ding	2007-04-17 10:44:08.000000000 +0200
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ # the next line restarts using wish \
+-LC_CTYPE=de_DE.UTF-8; export LC_CTYPE; exec wish "$0" "$@"
++LC_ALL=de_DE.UTF-8; export LC_ALL; exec wish "$0" "$@"
+ 
+ # This is "ding", 
+ #  * A dictionary lookup program,
