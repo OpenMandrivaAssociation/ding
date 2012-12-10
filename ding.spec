@@ -72,3 +72,66 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/ding.1*
 %_iconsdir/%name.png
 %_miconsdir/%name.png
+
+
+%changelog
+* Thu Sep 15 2011 Götz Waschk <waschk@mandriva.org> 1.7-2mdv2012.0
++ Revision: 699820
+- rebuild
+
+* Tue Sep 14 2010 Götz Waschk <waschk@mandriva.org> 1.7-1mdv2011.0
++ Revision: 578234
+- update to new version 1.7
+
+* Sat May 09 2009 Götz Waschk <waschk@mandriva.org> 1.6-1mdv2011.0
++ Revision: 373842
+- update to new version 1.6
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.5-3mdv2009.0
++ Revision: 244337
+- rebuild
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Fri Dec 21 2007 Olivier Blin <blino@mandriva.org> 1.5-1mdv2008.1
++ Revision: 136365
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Apr 17 2007 Götz Waschk <waschk@mandriva.org> 1.5-1mdv2007.1
++ Revision: 13548
+- Import ding
+
+
+
+* Tue Apr 17 2007 Götz Waschk <waschk@mandriva.org> 1.5-1mdv2007.1
+- fix deps
+- rediff patches
+- New version 1.5
+
+* Sat Aug  5 2006 Götz Waschk <waschk@mandriva.org> 1.4-4mdv2007.0
+- fix patch 1
+
+* Thu Aug  3 2006 Götz Waschk <waschk@mandriva.org> 1.4-3mdv2007.0
+- fix setting of the encoding
+
+* Thu Aug  3 2006 Götz Waschk <waschk@mandriva.org> 1.4-2mdv2007.0
+- add debian menu entry for backports
+- depend on locales-de
+
+* Wed Aug  2 2006 Götz Waschk <waschk@mandriva.org> 1.4-1mdv2007.0
+- initial mdv version
+
+* Fri Jan 21 2005 Frank Richter <frank.richter@hrz.tu-chemnitz.de>
+- version 1.4
+
+* Wed Feb 11 2004 Frank Richter <frank.richter@hrz.tu-chemnitz.de>
+- Time to start a changelog ...
+- Changes for version 1.3, fiddling with *.desktop files
