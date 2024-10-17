@@ -7,7 +7,7 @@ Group: System/Internationalization
 Source: ftp://ftp.tu-chemnitz.de/pub/Local/urz/ding/ding-%{version}.tar.bz2
 Patch: ding-1.5-xdg.patch
 Patch1: ding-1.5-encoding.patch
-URL: http://www-user.tu-chemnitz.de/~fri/ding/
+URL: https://www-user.tu-chemnitz.de/~fri/ding/
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-root
 BuildRequires: desktop-file-utils
